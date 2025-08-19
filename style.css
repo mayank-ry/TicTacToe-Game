@@ -1,0 +1,241 @@
+* {}
+
+body {
+    background-color: rgb(67, 172, 172);
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+
+/* toggle button ------------start */
+
+#toggle {
+
+    cursor: pointer;
+    position: fixed;
+    top: 0;
+    display: inline-block;
+    right: 0;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(48, 184, 48);
+    color: azure;
+    border-color: aliceblue;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease;
+    height: 35px;
+    width: 80px;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 999;
+}
+
+#toggle:hover {
+    transform: scale(1.05)
+}
+
+/* toggle button ------------end */
+
+
+
+
+
+
+/* dark body ----------start  */
+
+.Dark {
+    background: black;
+    color: white;
+}
+
+/* dark body ----------end  */
+
+
+
+
+
+/* container class toggle -----------start */
+
+.Dark .container {
+    border-color: white;
+}
+
+.container {
+    height: 70vh;
+    /*border: 2px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    /* z-index: -1;*/
+
+
+}
+
+.msg-ctn {
+    position: absolute;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /*height: 850px;*/
+    /* top: 0;*/
+    z-index: 99999;
+    border: 2px solid black;
+    /*padding: 5px;*/
+    background-color: rgb(36, 193, 36);
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+
+
+}
+
+
+
+.draw {
+    position: absolute;
+    z-index: 9990;
+    background-color: red;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+
+
+}
+
+
+
+#msgdraw {
+    font-size: 62px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(227, 234, 241);
+    font-weight: bold;
+}
+
+/* container class toggle -------end*/
+
+
+
+
+
+/* game class toggle ------start */
+.Dark .game {
+    border-color: white;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+/* game class toggle --------end */
+
+
+/* box class arrange ------start*/
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 12px;
+    box-shadow: 0 4px 7px rgba(45, 34, 255, 0.7);
+    border: 2px solid #ffb3b3;
+    transition: transform 0.3s ease;
+    cursor: grab;
+    color: green;
+    font-size: 55px;
+    background-color: rgb(241, 237, 232);
+
+}
+
+.box:hover {
+    transform: scale(1.05)
+}
+
+.Dark .box {
+    box-shadow: 0 4px 7px rgb(255, 255, 255);
+    border: 2px solid #f56565;
+    cursor: pointer;
+}
+
+/* box class arrange ------end*/
+
+/* reset button style -------start*/
+
+#reset {
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    border: 1px solid red;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+#reset:hover {
+    transform: scale(1.05);
+}
+
+
+
+#msg {
+    color: white;
+    font-size: 62px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    white-space: pre-line;
+
+}
+
+.hide {
+    display: none;
+}
+
+#newgame {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#newgame:hover {
+    transform: scale(1.05)
+}
+
+#newgame2 {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#newgame2:hover {
+    transform: scale(1.05)
+}
+
+main {
+    margin-bottom: 50px;
+}
