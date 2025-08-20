@@ -35,5 +35,3 @@ tictactoe/
 │── README.md
 
 
-
-Want me to also write a **short catchy tagline** for the top (like “Classic Tic Tac Toe in your browser”)?
